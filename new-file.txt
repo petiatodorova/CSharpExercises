@@ -1,1 +1,3 @@
 This is my first gitHub job.
+
+The exercise with clone-push is resolved.
