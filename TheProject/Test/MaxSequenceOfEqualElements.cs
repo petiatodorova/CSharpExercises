@@ -50,6 +50,12 @@ namespace Test
                 result.Append(arr[theIndex]);
                 result.Append(' ');
             }
+            //string result = "";
+            //for (int m = 0; m < maxLength; m++)
+            //{
+            //    result += arr[theIndex] + " ";
+
+            //}
             Console.WriteLine($"{result}");
         }
     }
