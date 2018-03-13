@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proba", "Proba\Proba.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassPoint", "ClassPoint\ClassPoint.csproj", "{426F6A36-4348-4A15-A4E3-DE41C28CD477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexExample", "RegexExample\RegexExample.csproj", "{FE8E4364-A873-4C2B-B9A5-4C375476956D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegexExample", "RegexExample\RegexExample.csproj", "{FE8E4364-A873-4C2B-B9A5-4C375476956D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraViewSol2", "CameraViewSol2\CameraViewSol2.csproj", "{504A4F84-429B-4CF6-8A9A-F10287F58856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CameraViewSol2", "CameraViewSol2\CameraViewSol2.csproj", "{504A4F84-429B-4CF6-8A9A-F10287F58856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesProject", "Sales\SalesProject.csproj", "{F8021FA8-671E-4E65-9BA6-107ABE48D2CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{504A4F84-429B-4CF6-8A9A-F10287F58856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{504A4F84-429B-4CF6-8A9A-F10287F58856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{504A4F84-429B-4CF6-8A9A-F10287F58856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8021FA8-671E-4E65-9BA6-107ABE48D2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8021FA8-671E-4E65-9BA6-107ABE48D2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8021FA8-671E-4E65-9BA6-107ABE48D2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8021FA8-671E-4E65-9BA6-107ABE48D2CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
