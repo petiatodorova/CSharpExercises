@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CameraViewSol2", "CameraVie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesProject", "Sales\SalesProject.csproj", "{F8021FA8-671E-4E65-9BA6-107ABE48D2CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryTest", "DictionaryTest\DictionaryTest.csproj", "{E69BFCEA-D00A-4BF2-9F25-986B42E868F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryTest", "DictionaryTest\DictionaryTest.csproj", "{E69BFCEA-D00A-4BF2-9F25-986B42E868F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryTest2", "DictionaryTest2\DictionaryTest2.csproj", "{97465412-500A-4C0D-80AB-D70D3F76424B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryTest2", "DictionaryTest2\DictionaryTest2.csproj", "{97465412-500A-4C0D-80AB-D70D3F76424B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictClassRepeat", "DictClass\DictClassRepeat.csproj", "{AB5B6E08-3325-44F8-8D4C-4589DCD3AF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictClassNoRep", "DictClassNoRep\DictClassNoRep.csproj", "{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{97465412-500A-4C0D-80AB-D70D3F76424B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97465412-500A-4C0D-80AB-D70D3F76424B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97465412-500A-4C0D-80AB-D70D3F76424B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5B6E08-3325-44F8-8D4C-4589DCD3AF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5B6E08-3325-44F8-8D4C-4589DCD3AF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5B6E08-3325-44F8-8D4C-4589DCD3AF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5B6E08-3325-44F8-8D4C-4589DCD3AF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
