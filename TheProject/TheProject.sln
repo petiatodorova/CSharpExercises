@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryTest2", "Dictiona
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictClassRepeat", "DictClass\DictClassRepeat.csproj", "{AB5B6E08-3325-44F8-8D4C-4589DCD3AF0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictClassNoRep", "DictClassNoRep\DictClassNoRep.csproj", "{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictClassNoRep", "DictClassNoRep\DictClassNoRep.csproj", "{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankPasswordProblem", "HackerRankPasswordProblem\HackerRankPasswordProblem.csproj", "{C879F935-0B1B-4EE9-BDC5-F0F0086809E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B1D7878-73F3-4AC8-8F76-8C78D2024EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C879F935-0B1B-4EE9-BDC5-F0F0086809E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C879F935-0B1B-4EE9-BDC5-F0F0086809E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C879F935-0B1B-4EE9-BDC5-F0F0086809E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C879F935-0B1B-4EE9-BDC5-F0F0086809E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
