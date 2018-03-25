@@ -8,7 +8,17 @@ namespace DictionaryTest
     {
         static void Main(string[] args)
         {
-            //SortedDictionary <Color, SortedDictionary<Name, Money>>
+            /* Tests
+             * 
+             * Ivan apple red / 32 14.4
+             * Ivan; kiwi blue 17 33.10
+             * Ivan grape blue 18 , 12.4
+             * Mimi orange blue  \ 19 18.8
+             * Mihail orange yellow 33   18.20
+             * End
+
+             * SortedDictionary <Color, SortedDictionary<Name, Money>>
+            */
             SortedDictionary<string, SortedDictionary<string, decimal>> salesPerColor = 
                 new SortedDictionary<string, SortedDictionary<string, decimal>>();
             string newInput = Console.ReadLine();
@@ -51,12 +61,7 @@ namespace DictionaryTest
                 }
 
             }
-            //Ivan apple red / 32 14.4
-            //Ivan; kiwi blue 17 33.10
-            //Ivan grape blue 18 , 12.4
-            //Mimi portocal blue  \ 19 18.8
-            //Mihail orange yellow 33   18.20
-            //End
+
         }
 
         static Person ReadPerson(string inputLine)

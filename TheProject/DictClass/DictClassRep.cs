@@ -2,24 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DictClassNoRep
+namespace DictClassRepeat
 {
     class DictClassRep
     {
         static void Main(string[] args)
         {
-            //с повтарящи се имена за различните цветове
+            /* Allows repeating names for the different colors
+             * Tests:
+             * Ivan apple red / 32 14.4
+             * Slav; kiwi blue 17 33.10
+             * Slav grape blue 18 , 12.4
+             * Grigor apple red / 77 14.4
+             * Mimi orange blue  \ 19 18.8
+             * Koni grape yellow / 33   17.6
+             * Mihail orange yellow 33   18.20
+             * End
+            */
 
-            //Ivan apple red / 32 14.4
-            //Slav; kiwi blue 17 33.10
-            //Slav grape blue 18 , 12.4
-            //Grigor apple red / 77 14.4
-            //Mimi portocal blue  \ 19 18.8
-            //Koni grape yellow / 33   17.6
-            //Mihail orange yellow 33   18.20
-            //End
-
-            Dictionary<string, List<Customr>> customers = new Dictionary<string, List<Customr>>(); // color, Customr
+            // Dictionary which holds the color as a Key Value and a List of Customr objects as Value
+            Dictionary<string, List<Customr>> customers = new Dictionary<string, List<Customr>>(); 
             string newInput = Console.ReadLine();
             
             while (true)
@@ -30,13 +32,15 @@ namespace DictClassNoRep
                 }
                 Customr cust = ReadCustomr(newInput);
                 string color = cust.Color;
-                if (!customers.ContainsKey(color)) //ако няма такъв цвят
+                // if we meet such color for first time
+                if (!customers.ContainsKey(color)) 
                 {
                     List<Customr> curCust = new List<Customr>();
                     curCust.Add(cust);
                     customers.Add(color, curCust);
                 }
-                else  //ако има такъв цвят, но няма такова име
+                else
+                // if the color exists, but we meet the name for first time
                 {
                     customers[color].Add(cust);
                 }

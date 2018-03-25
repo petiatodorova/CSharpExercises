@@ -1,14 +1,27 @@
 # excercise-repo
-Repo created for excercise.
-The conflict was resolved.
+# Repo created for practice.
 
-These are some changes to the masterLocalBranch.
+The exercices in this repo are written in C#.
+They resolve different problems using Dictionaries, Classes, Regex, Arrays, Lists etc.
 
-Hello from my branchLocalRepo!
-One more change to this branch.
-Edited again in master branch.
-Again some changes into the develop branch.
-One more change in the master.
-I've just added the project.
-My new local conflicting point.
-My remote conflicting point is created.
+### TheProject.sln
+The main Visual Studio Solution. 
+
+### StrongPassword
+This is a C# algorithm of Strong Password HackerRank challenge.
+
+### TheWinNumber.cs
+This is an example of using Int32.TryParse.
+
+### CameraViewSol1.cs and CameraViewSol2.cs
+These are 2 different decisions of CameraView SoftUni task.
+
+### SalesProgram.cs
+SortedDictionary which calculates Total Sales for different products, 
+which are defined with Class Sale and we are reading from the console.
+
+### ClassPoint.cs
+Calculates the distance between 2 points with (X,Y) coordinates.
+
+### DictClassNoRep.cs | DictClassRep.cs | DictionaryClass1.cs | DictionaryClass2.cs 
+Using of Dictionary and Class for different problems. 

@@ -2,26 +2,27 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DictClassNoRep
+namespace DictClassRepeat
 {
     class DictClassNoRep
     {
         static void Main(string[] args)
         {
-            //за повтарящи се имена за различните цветове добавя тотала към предния
-
-            //Ivan apple red / 32 14.4
-            //Slav; kiwi blue 17 33.10
-            //Slav grape blue 18 , 12.4
-            //Grigor apple red / 77 14.4
-            //Mimi portocal blue  \ 19 18.8
-            //Koni grape yellow / 33   17.6
-            //Mihail orange yellow 33   18.20
-            //End
+            /* If we meet repeating names for the different colors
+             * we add the total money to the existing
+             * Tests:
+             * Ivan apple red / 32 14.4
+             * Slav; kiwi blue 17 33.10
+             * Slav grape blue 18 , 12.4
+             * Grigor apple red / 77 14.4
+             * Mimi orange blue  \ 19 18.8
+             * Koni grape yellow / 33   17.6
+             * Mihail orange yellow 33   18.20
+             * End
+            */
 
             string input = Console.ReadLine();
             //Dictionary<color, Dict<name, totalmoney>>
-            //
             Dictionary<string, Dictionary<string, decimal>> users = new Dictionary<string, Dictionary<string, decimal>>();
 
             while (true)
