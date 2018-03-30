@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Text;
 
-namespace Test
+namespace MaxSequenceEqualElements
 {
-    class MaxSequenceOfEqualElements
+    class MaxSequenceEqualElements
     {
         static void Main(string[] args)
         {
@@ -12,14 +12,20 @@ namespace Test
                 .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
+
+            /*
+                Array in which we'll keep the max count
+                of equal elements starting from the current index to right.
+                The length is arr.Length - 1, because in the last index
+                we have always 1.
+            */
+            
             int[] countArr = new int[arr.Length - 1];
-            int currIndex;
-            int currCount;
 
             for (int i = 0; i < arr.Length - 1; i++)
             {
-                currIndex = i;
-                currCount = 1;
+                int currIndex = i;
+                int currCount = 1;
                 while (true)
                 {
                     if (currIndex > arr.Length - 2)
